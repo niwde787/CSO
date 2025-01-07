@@ -22,3 +22,26 @@ Includes a simple "Run Optimizer" button to apply all adjustments with a single 
 Console Logging:
 
 Outputs detailed hardware information and applied settings to the Blender console for transparency and debugging.
+
+How to Use
+Save the script as a .py file (e.g., comprehensive_system_optimizer.py).
+Install the addon:
+Open Blender.
+Go to Edit -> Preferences -> Add-ons.
+Click Install, select the .py file, and enable it.
+Run the optimizer:
+Go to Preferences -> System.
+Click Run Optimizer to apply the settings.
+
+GPU-Based Adjustments:
+Sets rendering resolution (resolution_x and resolution_y) based on GPU.
+Sets sampling settings (cycles.samples) for Cycles rendering.
+RAM-Based Adjustments:
+
+Dynamically sets Blender’s memory cache limit based on detected RAM.
+User-Friendly UI:
+
+Adds a panel under Preferences -> System with a button to run the optimization.
+Logs to Console:
+
+Logs detected hardware and applied settings for debugging.
